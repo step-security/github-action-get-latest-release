@@ -1,0 +1,1 @@
+# github-action-get-latest-release
