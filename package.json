@@ -30,6 +30,7 @@
     "@octokit/rest": "^21.0.2"
   },
   "devDependencies": {
+    "@vercel/ncc": "^0.38.3",
     "axios": "^1.8.4"
   }
 }
