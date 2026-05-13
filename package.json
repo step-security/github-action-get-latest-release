@@ -3,6 +3,7 @@
   "version": "0.7.0",
   "description": "A simple action to get the latest release from a Github repo.",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint main.js",
     "package": "ncc build main.js -o dist",
@@ -25,8 +26,8 @@
   "author": "step-security",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.0",
+    "@actions/core": "^3.0.0",
+    "@actions/github": "^9.0.0",
     "@octokit/rest": "^21.0.2"
   },
   "devDependencies": {
