@@ -1,8 +1,7 @@
-const core = require('@actions/core');
-const { Octokit } = require("@octokit/rest");
-const fs = require('fs');
-
-const axios = require("axios");
+import * as core from '@actions/core';
+import { Octokit } from '@octokit/rest';
+import fs from 'node:fs';
+import axios from 'axios';
 const repository = core.getInput('repository');
 const token = core.getInput('token');
 var owner = core.getInput('owner');
