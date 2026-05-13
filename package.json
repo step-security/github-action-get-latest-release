@@ -22,7 +22,7 @@
     "url": "https://github.com/step-security/github-action-get-latest-release/issues"
   },
   "homepage": "https://github.com/step-security/github-action-get-latest-release#readme",
-  "author": "Pozetron Inc",
+  "author": "step-security",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.11.1",
